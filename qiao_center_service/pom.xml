@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 继承父项目 -->
+    <parent>
+        <groupId>com.parent</groupId>
+        <artifactId>qiao_center_parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <!-- 基本信息 -->
+    <groupId>com.service</groupId>
+    <artifactId>qiao_center_service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>qiao_center_service</name>
+    <description>数据访问层-从bean拿实体,业务实现之后,provider调用</description>
+
+    <!-- properties可删掉，会继承父模块的-->
+    <!--<properties>-->
+        <!--<java.version>1.8</java.version>-->
+    <!--</properties>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

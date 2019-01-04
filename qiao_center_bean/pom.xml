@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 继承父项目 -->
+    <parent>
+        <groupId>com.parent</groupId>
+        <artifactId>qiao_center_parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+
+    <!-- 基本信息 -->
+    <groupId>com.center</groupId>
+    <artifactId>qiao_center_dao</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>qiao_center_bean</name>
+    <description>实体层</description>
+
+
+
+
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
