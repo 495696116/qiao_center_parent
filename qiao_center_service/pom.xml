@@ -19,7 +19,7 @@
 
     <!-- properties可删掉，会继承父模块的-->
     <!--<properties>-->
-        <!--<java.version>1.8</java.version>-->
+    <!--<java.version>1.8</java.version>-->
     <!--</properties>-->
 
     <dependencies>
