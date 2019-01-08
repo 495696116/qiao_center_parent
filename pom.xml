@@ -19,7 +19,7 @@
     <name>qiao_center_parent</name>
     <description>SpringBoot 多模块构建示例</description>
 
-
+    <!-- 版本号控制 -->
     <properties>
         <java.version>1.8</java.version>
         <emp.version>0.0.1-SNAPSHOT</emp.version>
@@ -36,6 +36,7 @@
     </modules>
 
 
+    <!--  父引用的jar -->
     <dependencies>
 
         <dependency>
@@ -52,14 +53,5 @@
 
     </dependencies>
 
-
-    <!--<build>-->
-    <!--<plugins>-->
-    <!--<plugin>-->
-    <!--<groupId>org.springframework.boot</groupId>-->
-    <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
-    <!--</plugin>-->
-    <!--</plugins>-->
-    <!--</build>-->
 
 </project>

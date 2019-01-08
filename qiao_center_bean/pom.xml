@@ -10,7 +10,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-
     <!-- 基本信息 -->
     <groupId>com.center</groupId>
     <artifactId>qiao_center_dao</artifactId>
@@ -18,18 +17,5 @@
     <name>qiao_center_bean</name>
     <description>实体层</description>
 
-
-
-
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
