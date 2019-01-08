@@ -17,12 +17,17 @@
     <name>qiao_center_service</name>
     <description>数据访问层-从bean拿实体,业务实现之后,provider调用</description>
 
-    <!-- properties可删掉，会继承父模块的-->
-    <!--<properties>-->
-    <!--<java.version>1.8</java.version>-->
-    <!--</properties>-->
+
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.center</groupId>
+            <artifactId>qiao_center_dao</artifactId>
+            <version>${emp.version}</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

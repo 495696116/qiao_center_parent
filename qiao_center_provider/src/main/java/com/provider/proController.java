@@ -1,13 +1,13 @@
 package com.provider;
 
-import com.bo.bo;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class proController {
 
-
-
-    public void test(){
-        bo bo=new bo();
-        bo.setId("1");
+    @GetMapping("/get")
+    public String getMessage(){
+        return "提供服务:center";
     }
 }

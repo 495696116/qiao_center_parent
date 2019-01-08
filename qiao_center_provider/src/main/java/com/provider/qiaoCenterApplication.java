@@ -1,14 +1,12 @@
-package com.mapper.service;
+package com.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QiaoCenterServiceApplication {
+public class qiaoCenterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(QiaoCenterServiceApplication.class, args);
+        SpringApplication.run(qiaoCenterApplication.class, args);
     }
-
 }
-
