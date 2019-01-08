@@ -18,6 +18,13 @@
     <description>业务层</description>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.center</groupId>
+            <artifactId>qiao_center_dao</artifactId>
+            <version>${emp.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
