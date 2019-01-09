@@ -3,6 +3,14 @@ server:
 spring:
   application:
     name: qiao_center
+  datasource:
+    url: jdbc:mysql://47.101.188.136:3306/qiao?useUnicode=true&characterEncoding=utf8
+    username: qiao
+    password: qiao854064170+
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath*:mapper/*Mapper.xml
 
 eureka:
   instance:

@@ -18,9 +18,10 @@
     <description>业务层</description>
 
     <dependencies>
+
         <dependency>
-            <groupId>com.center</groupId>
-            <artifactId>qiao_center_dao</artifactId>
+            <groupId>com.bean</groupId>
+            <artifactId>qiao_center_bean</artifactId>
             <version>${emp.version}</version>
         </dependency>
 

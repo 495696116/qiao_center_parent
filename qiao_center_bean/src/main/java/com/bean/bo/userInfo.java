@@ -1,6 +1,6 @@
-package com.bo;
+package com.bean.bo;
 
-public class bo {
+public class userInfo {
 
     private String id;
     private String name;

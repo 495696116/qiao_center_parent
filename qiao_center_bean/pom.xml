@@ -11,8 +11,8 @@
     </parent>
 
     <!-- 基本信息 -->
-    <groupId>com.center</groupId>
-    <artifactId>qiao_center_dao</artifactId>
+    <groupId>com.bean</groupId>
+    <artifactId>qiao_center_bean</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>qiao_center_bean</name>
     <description>实体层</description>
