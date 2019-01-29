@@ -1,4 +1,4 @@
-package com.mapper.dao;
+package com.mapper.repository;
 
 
 import com.bean.bo.userInfo;
